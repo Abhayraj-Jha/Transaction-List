@@ -1,0 +1,50 @@
+.purpose{
+    margin-top: 3rem;
+}
+
+.amount{
+    margin-top: 2.2rem;
+}
+
+input{
+    font-size: 1.7rem;
+    letter-spacing: 0.6px;
+    border: 1.5px solid rgba(197, 197, 197, 0.205);
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border 0.15s ease;
+    caret-color: rgb(23, 1, 146);
+}
+
+input:focus{
+    border: 1.5px solid rgb(85, 61, 222);
+}
+
+.buttons{
+    margin-top: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 40%;
+    padding: 7px;
+    font-size: 1.5rem;
+    background-color: rgb(0, 190, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgb(0,150,255);
+}
+
+.fa-minus{
+    color: white;
+}
+
+.fa-plus{
+    color: white;
+}

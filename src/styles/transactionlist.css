@@ -1,0 +1,37 @@
+.transactionList{
+    margin-top: 3rem;
+}
+
+.listItem{
+    border: 1px solid rgb(236, 236, 236);
+    margin-top: 0.8rem;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: none;
+    transition: box-shadow 0.25s ease;
+}
+
+.listItem .dataPurpose, .dataAmount{
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    width: 40%;
+}
+
+.listItem:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fa-trash{
+    color: black;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.fa-trash:hover{
+    color: rgb(255, 0, 0);
+}
